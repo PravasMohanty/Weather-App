@@ -15,7 +15,7 @@ body{
 .card{
     padding: 2rem 1.85rem;
     background: linear-gradient(135deg,#00feba,#5b548a);
-    max-width: 400px;
+    max-width: 80vw;
     border-radius: 20px;
     color: #fff;
     margin: auto;
@@ -25,6 +25,8 @@ body{
 }
 
 .search{
+    width: 70vw;
+    padding: 0 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +39,7 @@ body{
     padding: 10px 25px;
     background-color: #ebfffc;
     height: 43px;
+    width: 10rem;
     flex: 1;
     margin-right: 10px;
     font-size: 15px;
@@ -88,3 +91,14 @@ body{
     font-size: 0.7rem;
 
 }
+
+@media screen and (min-width:768px){
+    .card{
+        max-width: 400px;
+    }
+
+    .search{
+        width: 100%;
+    }
+
+    }
